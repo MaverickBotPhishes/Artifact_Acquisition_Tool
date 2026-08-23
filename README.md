@@ -92,7 +92,6 @@ LiME bypasses these restrictions by loading directly into the Linux kernel, enab
 
 **Artifact extraction flow:** Create timestamped output tree → copy logs, configurations, histories, and browser profiles with metadata preservation (`cp --preserve=all`) → snapshot live system, network, and filesystem state via command output capture.
 
-> For detailed internals, see [CODE_DOCUMENTATION.md](./CODE_DOCUMENTATION.md).
 
 ## Repository Structure
 
